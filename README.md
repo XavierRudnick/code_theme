@@ -1,1 +1,2 @@
-My vs code theme
+My code theme, built for oled screens
+
