@@ -14,7 +14,7 @@
     "remote.autoForwardPortsSource": "hybrid",
     
     "workbench.colorCustomizations": {
-    "[Default Dark+]": {
+    "[Dark+]": {
        //Main Editor Surface
         "editor.background": "#000000",
         "editor.lineHighlightBackground": "#121212",
