@@ -1,66 +1,55 @@
 {
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "files.autoSave": "afterDelay",
-    "workbench.settings.applyToAllProfiles": [
-        "editor.cursorStyle"
-    ],
-    "explorer.confirmDragAndDrop": false,
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
-    "python.defaultInterpreterPath": "c:\\Users\\Xav\\miniconda3",
-    "svelte.enable-ts-plugin": true,
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "remote.autoForwardPortsSource": "hybrid",
+        "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+           //Main Editor Surface
+            "editor.background": "#000000",
+            "editor.lineHighlightBackground": "#121212",
+            "editorGutter.background": "#000000",
     
-    "workbench.colorCustomizations": {
-    "[Dark+]": {
-       //Main Editor Surface
-        "editor.background": "#000000",
-        "editor.lineHighlightBackground": "#121212",
-        "editorGutter.background": "#000000",
+            //Sidebars and Panels
+            "sideBar.background": "#000000",
+            "sideBar.foreground": "#737373",
+            "sideBarTitle.foreground": "#666666",
+            "sideBarSectionHeader.foreground": "#5c5c5c",
 
-        //Sidebars and Panels
-        "sideBar.background": "#000000",
-        "activityBar.background": "#000000",
-        "activityBar.border": "#121212",
-        "sideBar.border": "#121212",
-        "sideBarSectionHeader.background": "#080808",
-        "terminal.background": "#000000",
-        
-        // Header and Tabs
-        "editorGroupHeader.tabsBackground": "#000000",
-        "tab.inactiveBackground": "#000000",
-        "tab.activeBackground": "#121212",
-        "tab.border": "#121212",
-        
-        // Bottom Status Bar
-        "statusBar.background": "#000000",
-        "statusBar.noFolderBackground": "#000000",
-        "statusBar.border": "#121212",
+            "activityBar.background": "#000000",
+            "activityBar.foreground": "#6b6b6b",
+            "activityBar.inactiveForeground": "#4f4f4f",
+            "activityBar.border": "#121212",
+            "sideBar.border": "#121212",
+            "sideBarSectionHeader.background": "#080808",
+            "terminal.background": "#000000",
+            
+            // Header and Tabs
+            "editorGroupHeader.tabsBackground": "#000000",
+            "tab.inactiveBackground": "#000000",
+            "tab.activeBackground": "#121212",
+            "tab.border": "#121212",
+            
+            // Bottom Status Bar
+            "statusBar.background": "#000000",
+            "statusBar.foreground": "#8a8a8a",
+            "statusBar.noFolderBackground": "#000000",
+            "statusBar.noFolderForeground": "#8a8a8a",
+            "statusBar.debuggingForeground": "#949494",
+            "statusBar.border": "#121212",
+            "statusBarItem.hoverForeground": "#9e9e9e",
+            "statusBarItem.prominentForeground": "#a0a0a0",
+    
+            // Title Bar (Top) — also affects menu text when using custom title bar
+            "titleBar.activeBackground": "#000000",
+            "titleBar.inactiveBackground": "#000000",
+            "titleBar.activeForeground": "#8a8a8a",
+            "titleBar.inactiveForeground": "#6a6a6a",
+            "titleBar.border": "#121212",
 
-        // Title Bar (Top)
-        "titleBar.activeBackground": "#000000",
-        "titleBar.inactiveBackground": "#000000",
-        "titleBar.border": "#121212",
-        // Outer window border (active / inactive)
-        "window.activeBorder": "#000000",
-        "window.inactiveBorder": "#000000"
-    }
-},
-
-    "chat.tools.terminal.autoApprove": {
-        "gdb": true
+            "commandCenter.foreground": "#8a8a8a",
+            "commandCenter.inactiveForeground": "#6a6a6a",
+            // Outer window border (active / inactive)
+            "window.activeBorder": "#000000",
+            "window.inactiveBorder": "#000000"
+        }
+    
     },
-    "editor.minimap.enabled": false,
-    "editor.tokenColorCustomizations": {
-    // "[Black Italic]": {
-    //     "comments": "#74b9ff",
-    //     "functions": "#fab1a0",
-    //     "strings": "#55efc4"
-    // }
-},
-    "chat.viewSessions.orientation": "stacked",
-    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+"
 }
